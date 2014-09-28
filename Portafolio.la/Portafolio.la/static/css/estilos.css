@@ -1,0 +1,218 @@
+/*	Utilities	*/
+.u-title{
+	color: pink;
+	border-bottom: 2px dashed #00CCFF;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 1em;
+	margin: 0;
+	padding: 0;
+}
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.MainMenu-list{
+	margin: 0;
+	padding: 0;
+}
+
+.MainMenu-item{
+	display: inline-block;
+}
+
+.MainMenu-link{
+	color: pink;
+	text-decoration: none;/*quitar subrayado de los links*/
+	line-height: 3.75em;
+	margin-right: 1.5em;
+}
+
+.Header{
+	margin-top:3.75em;
+	background-image: url('../images/portadaa.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1.2em;
+}
+
+.Header-image{
+	border: 5px solid pink;
+	border-radius: 50px;
+}
+
+.Header-name, .Header-link{
+	color:gray;
+}
+
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name{
+	font-size: 1.5em;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.Profile{
+	text-align: center;
+}	
+
+.Profile-link{
+	background:#007FFF;
+	color:white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;
+}
+
+.Work{
+	margin-top: 2em;
+	text-align: center;
+}
+
+.Work-item{
+	display:inline-block;
+	margin-bottom: 1.8em;
+}
+
+.Wor-imageContainer{
+	margin: 0;
+}
+
+.Work-description{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+}
+
+
+.Footer{
+	background-image: url('../images/portada1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 500px;
+	padding: 2em 0;
+	text-align: center;
+}
+
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+}
+
+.Footer-title{
+color:gray;
+
+}
+
+.Footer-formInput, .Footer-textarea{
+	background: white;
+	border: none;
+	display: block;
+	margin-bottom: 1em;
+	border-radius: 2em;
+	padding: .5em;
+	margin: 0 auto 1em;
+}
+
+.Footer-textarea{
+	resize: none;
+}
+
+.Footer-button{
+	background: orange;
+	color: white;
+	border-radius: 1em;
+	padding: .5em 1em;
+	border: none;
+}
+
+.Footer-left{
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+
+
+/*.u-title{
+	color: red;
+	text-decoration: underline;
+}
+
+.Header{
+	background: gray;
+	position: relative;
+	top: 20px;
+	/*right:;*/
+	/*bottom:;*/
+	/*left: 20px;
+	/*display: inline-block;*/
+	/*background-color: gray;
+	display: block; hace que tenga todo el anho del navegador
+	display: inline-block; hace que solo tenga el ancho de su contenido
+	display: none; Deja de mostrar contenido en la web*/
+
+	/*margin-top: 20px;
+	margin-left: 20px;*/
+/*
+}
+.Header-imageContainer{
+
+}
+.MainMenu{
+	position: fixed;
+	background: green;
+	top: 0px;
+	left: 0px;
+	right: 0;
+	z-index: 1;
+
+}
+
+.Profile{
+	/*display: inline-block;*/
+	/*position: relative;
+	top: 20px;
+	left: 20px;
+	background: lightgray;
+
+	/*display: inline-block
+	background:lightgray;
+	vertical-align: top; hace que el elemento comience desde arriba*/
+/*}
+
+.Work{
+
+}
+
+.Footer{
+
+}
+
+.Profile-span{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+
+	position:absolute;
+	top: 20px;
+	left: 20px;
+}
+*/

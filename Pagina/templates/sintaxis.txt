@@ -1,0 +1,8 @@
+En CSS3 
+.class selecciona una clase
+#id selecciona un id
+ul > li selecciona los hijos de ul
+header selecciona los headers
+header nav selecciona solo los nav que estan en el header
+section + section selector adyiacente
+[href = "#yo"] selector de atributo. Todos los href que tengan #yo 

@@ -1,0 +1,83 @@
+En CSS3 
+.class selecciona una clase
+#id selecciona un id
+ul > li selecciona los hijos de ul
+header selecciona los headers
+header nav selecciona solo los nav que estan en el header
+section + section selector adyiacente
+[href = "#yo"] selector de atributo. Todos los href que tengan #yo 
+
+
+	DISPLAY
+
+display: block maneja el ancho de cada etiqueta en todo el navegador disponible.
+display: in-lineblock; solo toman el tamaño de su contenido, tambien sirve para poner elementos uno al lado de otro.
+vertical-align: top; sirve para cortar el padding, esto solo se usa con in-lineblock;
+display: none; quita el contenido.
+
+
+	POSITION 
+
+Position
+
+-    static
+Lo que hemos hecho toda la vida, tiene todos los márgenes y se comporta normal.
+
+-    relative
+Permite mover la caja sin afectar el modelo de caja por medio de left, top, bottom, right.
+
+-    absolute
+La caja resetea el modelo de caja, se pone en la posición 0,0 en el contenedor relativo más cercano.
+
+Tip: si no le colocas posiciones left, top, bottom, right a un position: relative, se comportara igual que un position: static.
+
+
+Viewport: Nombre técnico del tamaño del navegador.
+
+
+todos los elementos tienen position static, al igual que todos tienes display block
+position: static; Es la posicion básica, posicion estatica
+position: relative;
+position: absolute; todos se van hasta el margen superior izquierdo
+position: fixed; siempre se queda flotando, ejemplo boton menu facebook.
+z-index: da prioridad a los elementos que se van a mostrar, ejemplo z-index: 2;
+
+
+	PSEUDOCLASES	
+hover cuando pasa el mouse por arriba se cambia de color
+visited cambia de color cuando ya se le dio click al link
+active cambia de color cuandoe sta presionando el link
+
+ejemplos a:hover{} a:visited{} a:active{}
+
+ul li{} selecciona todos los li que esten desntro de ul
+
+ul li:last-child{} selecciona al ultimo hijo
+
+ul li:fiirst-child{} selecciona al primer hijo
+
+ul li:nth-child(odd) selecciona a los elementos impares
+
+ul li:nth-child(even) selecciona a los elementos pares
+
+.MainMenu:before{content:"Contenido antes de el selector"} tambien se usa after
+
+p:first-line{color: red} la primera linea sera roja
+
+p:first-letter{color: gray font-size: 3em;}la primer letra sera gris y de 3em
+
+
+	SHORTCUTS SUBLIME TEXT 2
+ctrl shift v: pega todo en su formato original
+ctrl l: selecciona toda la linea
+ctrl d: selecciona los elementos similares
+ctrl m: me mueve a los extremos de los parentesis
+ctrl shift m: selecciona todos lo que esta dentro del parentesis o llave
+ctrl shift d: se copia el contenido seleccionado
+ctrl j: se junta todo el contenido
+ctrl }]: comenta el contenido
+ctrl g: me envia al numero de la linea
+ctrl p: me mestra los archivos de los proyectos
+ctrl shift numero: divide la ventana dependiendo el numero
+
+
